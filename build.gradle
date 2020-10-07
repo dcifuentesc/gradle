@@ -26,11 +26,13 @@ dependencies {
 
 	//Apache camel core
 	compile 'org.apache.camel:camel-core:3.4.0'
+	/*
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
-	}
+	}*/
 }
 
+/*
 test {
 	useJUnitPlatform()
-}
+}*/
